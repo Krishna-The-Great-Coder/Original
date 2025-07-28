@@ -117,9 +117,9 @@
             {{job.location}} • {{job.salary}} • Posted on {{job.posted}}
         </div>
         <form
-          action="https://formbold.com/s/oaxma"
+          class="offset-lg-2 col-lg-8"
+          action="/jobs/{{job.id}}/apply"
           method="POST"
-          enctype="multipart/form-data"
         >
           <!--NAME-->
           <div class="mb-3 col-sm-6">
